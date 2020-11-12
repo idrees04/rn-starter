@@ -43,6 +43,18 @@ const HomeScreen = ({ navigation }) => {
       />
       {/* insert new line inbetween Button */}
       <Text> {"\n"}</Text>
+      <Button
+        title="Go to Text Demo"
+        onPress={() => navigation.navigate("text")}
+      />
+      {/* insert new line inbetween Button */}
+      <Text> {"\n"}</Text>
+      <Button
+        title="Go to Box Demo"
+        onPress={() => navigation.navigate("box")}
+      />
+      {/* insert new line inbetween Button */}
+      <Text> {"\n"}</Text>
 
       <TouchableOpacity onPress={() => navigation.navigate("List")}>
         <Text>Go to List Demo</Text>
